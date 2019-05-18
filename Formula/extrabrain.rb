@@ -1,12 +1,12 @@
 class Extrabrain < Formula
   desc "A CLI for https://extrabrain.se"
   homepage "https://extrabrain.se"
-  url "https://github.com/standout/ExtraBrainCLI/archive/1.1.2.tar.gz"
-  sha256 "2389e90efd1f759a4549991dfc3c82cd7a8071a53e6ba41227dc67f9aa8ec86f"
+  url "https://github.com/standout/ExtraBrainCLI/archive/1.1.3.tar.gz"
+  sha256 "a4829d07489876a978297e9834fc5fa0f7f264a8268ab0b1a2e89a2861b2a7bb"
 
   head "https://github.com/standout/ExtraBrainCLI.git"
 
-  depends_on xcode: ["10.0", :build]
+  depends_on xcode: ["10.2", :build]
 
   def install
     system "make", "install", "prefix=#{prefix}"
