@@ -2,7 +2,7 @@ class Extrabrain < Formula
   desc "A CLI for https://extrabrain.se"
   homepage "https://extrabrain.se"
   url "https://github.com/standout/ExtraBrainCLI/archive/1.1.3.tar.gz"
-  sha256 "a4829d07489876a978297e9834fc5fa0f7f264a8268ab0b1a2e89a2861b2a7bb"
+  sha256 "2036be5d689bc41aa13cc50ea7f556fc8d356845e5fc51a1d0741af5a2244ea2"
 
   head "https://github.com/standout/ExtraBrainCLI.git"
 
